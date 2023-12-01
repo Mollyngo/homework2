@@ -8,10 +8,11 @@ body{
 header {
     background-color: rgb(251, 249, 249) !important;
     min-height: 70px;
+    width: 1024px;
 }
 
 nav {
-    background-color: aquamarine;
+    background-color: rgb(183, 160, 177);
     padding: 8px;
     display: flex;
     justify-content: space-between;
@@ -21,6 +22,7 @@ nav {
 .button-group{
     display: flex;
     gap: 20px;
+    box-shadow: inset;
 }
 
 .prev {
